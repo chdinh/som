@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Diese Datei wird automatisch vom XML-Schema-Designer generiert. Sie enthält Layoutinformationen für Komponenten auf der Designeroberfläche.-->
+<XSDDesignerLayout Style="LeftRight" layoutVersion="2" viewPortLeft="0" viewPortTop="254" zoom="100">
+    <TUFak_XmlComplexType left="1317" top="1254" width="5292" height="3149" selected="0" zOrder="1" index="0" expanded="1">
+        <Adress_XmlElement left="7243" top="1254" width="5292" height="3149" selected="0" zOrder="2" index="1" expanded="0" />
+    </TUFak_XmlComplexType>
+    <deAddress_XmlComplexType left="1317" top="4911" width="5292" height="3149" selected="0" zOrder="5" index="1" expanded="1" />
+    <postalCode_XmlSimpleType left="1317" top="8568" width="5292" height="3149" selected="0" zOrder="7" index="2" expanded="1" />
+    <Competence_XmlComplexType left="1317" top="14053" width="5292" height="3149" selected="0" zOrder="9" index="3" expanded="0" />
+    <profList_XmlElement left="1317" top="21366" width="5292" height="3149" selected="0" zOrder="11" index="4" expanded="1">
+        <Prof_XmlElement left="7243" top="21366" width="5292" height="3149" selected="0" zOrder="12" index="0" expanded="1">
+            <Fak_XmlElement left="13169" top="19538" width="5292" height="3149" selected="0" zOrder="14" index="5" expanded="0" />
+            <Kompetenzfelder_XmlElement left="13169" top="23195" width="5292" height="3149" selected="0" zOrder="17" index="6" expanded="0" />
+        </Prof_XmlElement>
+    </profList_XmlElement>
+    <Elektrotechnik_XmlComplexType left="1317" top="26852" width="5292" height="2672" selected="0" zOrder="22" index="5" expanded="1" />
+    <Informatik_XmlComplexType left="1317" top="30032" width="5292" height="3149" selected="0" zOrder="24" index="6" expanded="1" />
+    <Wirtschaftswissenschaften_XmlComplexType left="1317" top="33689" width="5291" height="3148" selected="0" zOrder="26" index="7" expanded="1" />
+    <Naturwissenschaften_XmlComplexType left="1317" top="37345" width="5292" height="3149" selected="0" zOrder="27" index="8" expanded="1" />
+    <Maschinenbau_XmlComplexType left="1317" top="41002" width="5292" height="3149" selected="0" zOrder="28" index="9" expanded="1" />
+    <Interdisziplinen_XmlComplexType left="1317" top="44659" width="5292" height="3149" selected="0" zOrder="29" index="10" expanded="1" />
+</XSDDesignerLayout>

@@ -1,0 +1,161 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{47990CFB-D09D-4628-91F7-82FAB2D1C6D6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SOM</RootNamespace>
+    <AssemblyName>ProfSearch</AssemblyName>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form_MainAp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_MainAp.Designer.cs">
+      <DependentUpon>Form_MainAp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form_MainAp.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form_MainAp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sub_AboutSOM.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Sub_AboutSOM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sub_Form_MerKlass.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Sub_Form_MerKlass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sub_Form_ProfEdit.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Sub_Form_ProfEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sub_Form_ProfInfo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Sub_Form_ProfInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sub_Form_TrainNet.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Sub_Form_TrainNet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sub_Form_TSP.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Sub_Form_TSP.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Prof_Schema.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Prof_Schema.xsx">
+      <DependentUpon>Prof_Schema.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\DataSources\nn_prof.Prof.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Sub_AboutSOM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sub_AboutSOM.Designer.cs">
+      <DependentUpon>Sub_AboutSOM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sub_Form_MerKlass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sub_Form_MerKlass.Designer.cs">
+      <DependentUpon>Sub_Form_MerKlass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sub_Form_ProfEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sub_Form_ProfEdit.Designer.cs">
+      <DependentUpon>Sub_Form_ProfEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sub_Form_ProfInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sub_Form_ProfInfo.Designer.cs">
+      <DependentUpon>Sub_Form_ProfInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sub_Form_TrainNet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sub_Form_TrainNet.Designer.cs">
+      <DependentUpon>Sub_Form_TrainNet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sub_Form_TSP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sub_Form_TSP.Designer.cs">
+      <DependentUpon>Sub_Form_TSP.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\nn_math\nn_math.csproj">
+      <Project>{2D6541A0-FF69-42BD-9D5D-BE2AC107D014}</Project>
+      <Name>nn_math</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\nn_som\nn_som.csproj">
+      <Project>{F417D7D1-4832-4D3E-85C9-BDE4FF95CE88}</Project>
+      <Name>nn_som</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icon.ico" />
+    <Content Include="Prof_Data.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

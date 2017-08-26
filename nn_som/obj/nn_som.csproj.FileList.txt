@@ -1,0 +1,14 @@
+bin\Debug\nn_som.dll
+bin\Debug\nn_som.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\nn_som.dll
+obj\Debug\nn_som.pdb
+bin\Debug\nn_math.dll
+bin\Debug\nn_math.pdb
+bin\Release\nn_som.dll
+bin\Release\nn_som.pdb
+bin\Release\nn_math.dll
+bin\Release\nn_math.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\nn_som.dll
+obj\Release\nn_som.pdb

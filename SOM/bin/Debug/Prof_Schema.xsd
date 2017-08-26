@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Prof_Schema" targetNamespace="http://tempuri.org/Prof_Schema.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/Prof_Schema.xsd" xmlns:mstns="http://tempuri.org/Prof_Schema.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0">
+  <xs:complexType name="TUFak">
+    <xs:sequence>
+      <xs:element name="Name" type="xs:string" default="" />
+      <xs:element name="Adress" type="mstns:deAddress" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="deAddress">
+    <xs:sequence>
+      <xs:element name="Name" type="xs:string" default="" />
+      <xs:element name="Street" type="xs:string" default="" />
+      <xs:element name="City" type="xs:string" default="" />
+      <xs:element name="State" type="xs:string" default="" />
+      <xs:element name="Zip" type="mstns:postalCode" default="00000" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="postalCode">
+    <xs:restriction base="xs:string" />
+  </xs:simpleType>
+  <xs:complexType name="Competence">
+    <xs:sequence>
+      <xs:element name="Elektrotechnik" type="Elektrotechnik" />
+      <xs:element name="Informatik" type="Informatik" />
+      <xs:element name="Wirtschaftswissenschaften" type="Wirtschaftswissenschaften" />
+      <xs:element name="Naturwissenschaften" type="Naturwissenschaften" />
+      <xs:element name="Maschinenbau" type="Maschinenbau" />
+      <xs:element name="Interdisziplinen" type="Interdisziplinen" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="profList">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Prof">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LastName" type="xs:string" default="" />
+              <xs:element name="FirstName" type="xs:string" default="" />
+              <xs:element name="Title" type="xs:string" default="" />
+              <xs:element name="Email" type="xs:string" default="" />
+              <xs:element name="Phone" type="xs:string" default="" />
+              <xs:element name="Fak" type="mstns:TUFak" />
+              <xs:element name="Kompetenzfelder" type="mstns:Competence" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="Elektrotechnik">
+    <xs:sequence>
+      <xs:element name="Elektronik" type="xs:positiveInteger" />
+      <xs:element name="Hochenergietechnik" type="xs:positiveInteger" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Informatik">
+    <xs:sequence>
+      <xs:element name="Neuroinformatik" type="xs:positiveInteger" />
+      <xs:element name="Datenbanken" type="xs:positiveInteger" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Wirtschaftswissenschaften">
+    <xs:sequence>
+      <xs:element name="Betriebswirtschaftslehre" type="xs:positiveInteger" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Naturwissenschaften">
+    <xs:sequence>
+      <xs:element name="Mathematik" type="xs:positiveInteger" />
+      <xs:element name="Physik" type="xs:positiveInteger" />
+      <xs:element name="Chemie" type="xs:positiveInteger" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Maschinenbau">
+    <xs:sequence>
+      <xs:element name="Konstruktion" type="xs:positiveInteger" />
+      <xs:element name="Technischemechanik" type="xs:positiveInteger" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Interdisziplinen">
+    <xs:sequence>
+      <xs:element name="Medizintechnik" type="xs:positiveInteger" />
+      <xs:element name="Robotic" type="xs:positiveInteger" />
+      <xs:element name="Fahrzeugtechnik" type="xs:positiveInteger" />
+      <xs:element name="Automatisierung" type="xs:positiveInteger" />
+      <xs:element name="Nanotechnologie" type="xs:positiveInteger" />
+      <xs:element name="Medienwissenschaften" type="xs:positiveInteger" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

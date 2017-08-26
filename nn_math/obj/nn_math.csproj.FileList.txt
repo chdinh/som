@@ -1,0 +1,10 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\nn_math.dll
+bin\Debug\nn_math.pdb
+obj\Debug\nn_math.dll
+obj\Debug\nn_math.pdb
+bin\Release\nn_math.dll
+bin\Release\nn_math.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\nn_math.dll
+obj\Release\nn_math.pdb

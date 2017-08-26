@@ -1,0 +1,285 @@
+<?xml version="1.0" standalone="yes"?>
+<profList xmlns="http://tempuri.org/Prof_Schema.xsd">
+  <Prof>
+    <LastName>Groß</LastName>
+    <FirstName>Horst-Michael</FirstName>
+    <Title>Prof. Dr.</Title>
+    <Email>horst-michael.gross@tu-ilmenau.de</Email>
+    <Phone>+49 3677 69 2858</Phone>
+    <Fak>
+      <Name>Informatik und Automatisierung</Name>
+      <Adress>
+        <Name>Fakultät für Informatik und Automatisierung</Name>
+        <Street>Gustav-Kirchhoff-Str. 1, Zimmer 1043</Street>
+        <City>Ilmenau</City>
+        <State>Deutschland</State>
+        <Zip>98694</Zip>
+      </Adress>
+    </Fak>
+    <Kompetenzfelder>
+      <Elektrotechnik>
+        <Elektronik>1</Elektronik>
+        <Hochenergietechnik>1</Hochenergietechnik>
+      </Elektrotechnik>
+      <Informatik>
+        <Neuroinformatik>10</Neuroinformatik>
+        <Datenbanken>9</Datenbanken>
+      </Informatik>
+      <Wirtschaftswissenschaften>
+        <Betriebswirtschaftslehre>1</Betriebswirtschaftslehre>
+      </Wirtschaftswissenschaften>
+      <Naturwissenschaften>
+        <Mathematik>9</Mathematik>
+        <Physik>5</Physik>
+        <Chemie>3</Chemie>
+      </Naturwissenschaften>
+      <Maschinenbau>
+        <Konstruktion>1</Konstruktion>
+        <Technischemechanik>1</Technischemechanik>
+      </Maschinenbau>
+      <Interdisziplinen>
+        <Medizintechnik>1</Medizintechnik>
+        <Robotic>10</Robotic>
+        <Fahrzeugtechnik>3</Fahrzeugtechnik>
+        <Automatisierung>3</Automatisierung>
+        <Nanotechnologie>1</Nanotechnologie>
+        <Medienwissenschaften>4</Medienwissenschaften>
+      </Interdisziplinen>
+    </Kompetenzfelder>
+  </Prof>
+  <Prof>
+    <LastName>Ambacher</LastName>
+    <FirstName>Oliver</FirstName>
+    <Title>Univ. Prof. Dr. rer. nat. habil.</Title>
+    <Email>oliver.ambacher@tu-ilmenau.de</Email>
+    <Phone>+49 3677 69 3402</Phone>
+    <Fak>
+      <Name>Elektrotechnik und Informationstechnik</Name>
+      <Adress>
+        <Name>ZMN</Name>
+        <Street>Gustav-Kirchhoff-Str. 7, Zimmer 302</Street>
+        <City>Ilmenau</City>
+        <State>Deutschland</State>
+        <Zip>98693</Zip>
+      </Adress>
+    </Fak>
+    <Kompetenzfelder>
+      <Elektrotechnik>
+        <Elektronik>10</Elektronik>
+        <Hochenergietechnik>1</Hochenergietechnik>
+      </Elektrotechnik>
+      <Informatik>
+        <Neuroinformatik>2</Neuroinformatik>
+        <Datenbanken>3</Datenbanken>
+      </Informatik>
+      <Wirtschaftswissenschaften>
+        <Betriebswirtschaftslehre>3</Betriebswirtschaftslehre>
+      </Wirtschaftswissenschaften>
+      <Naturwissenschaften>
+        <Mathematik>8</Mathematik>
+        <Physik>6</Physik>
+        <Chemie>8</Chemie>
+      </Naturwissenschaften>
+      <Maschinenbau>
+        <Konstruktion>1</Konstruktion>
+        <Technischemechanik>1</Technischemechanik>
+      </Maschinenbau>
+      <Interdisziplinen>
+        <Medizintechnik>1</Medizintechnik>
+        <Robotic>1</Robotic>
+        <Fahrzeugtechnik>1</Fahrzeugtechnik>
+        <Automatisierung>1</Automatisierung>
+        <Nanotechnologie>10</Nanotechnologie>
+        <Medienwissenschaften>1</Medienwissenschaften>
+      </Interdisziplinen>
+    </Kompetenzfelder>
+  </Prof>
+  <Prof>
+    <LastName>Seidel</LastName>
+    <FirstName>Heinz-Ulrich</FirstName>
+    <Title>Univ. Prof. Dr. rer. nat. habil.</Title>
+    <Email>dekan-ei@tu-ilmenau.de</Email>
+    <Phone>+49 3677 69 2844</Phone>
+    <Fak>
+      <Name>Elektrotechnik und Informationstechnik</Name>
+      <Adress>
+        <Name>Fakultät für Elektrotechnik und Informationstechnik</Name>
+        <Street>Gustav-Kirchhoff-Str. 1, Zimmer 2085</Street>
+        <City>Ilmenau</City>
+        <State>Deutschland</State>
+        <Zip>98693</Zip>
+      </Adress>
+    </Fak>
+    <Kompetenzfelder>
+      <Elektrotechnik>
+        <Elektronik>10</Elektronik>
+        <Hochenergietechnik>10</Hochenergietechnik>
+      </Elektrotechnik>
+      <Informatik>
+        <Neuroinformatik>1</Neuroinformatik>
+        <Datenbanken>1</Datenbanken>
+      </Informatik>
+      <Wirtschaftswissenschaften>
+        <Betriebswirtschaftslehre>1</Betriebswirtschaftslehre>
+      </Wirtschaftswissenschaften>
+      <Naturwissenschaften>
+        <Mathematik>8</Mathematik>
+        <Physik>4</Physik>
+        <Chemie>1</Chemie>
+      </Naturwissenschaften>
+      <Maschinenbau>
+        <Konstruktion>1</Konstruktion>
+        <Technischemechanik>1</Technischemechanik>
+      </Maschinenbau>
+      <Interdisziplinen>
+        <Medizintechnik>1</Medizintechnik>
+        <Robotic>1</Robotic>
+        <Fahrzeugtechnik>1</Fahrzeugtechnik>
+        <Automatisierung>1</Automatisierung>
+        <Nanotechnologie>1</Nanotechnologie>
+        <Medienwissenschaften>1</Medienwissenschaften>
+      </Interdisziplinen>
+    </Kompetenzfelder>
+  </Prof>
+  <Prof>
+    <LastName>Sinzinger</LastName>
+    <FirstName>Stefan</FirstName>
+    <Title>Univ.-Prof. Dr. rer. nat. habil.</Title>
+    <Email>stefan.sinzinger@tu-ilmenau.de</Email>
+    <Phone>+49 3677 69 2499</Phone>
+    <Fak>
+      <Name>Maschinenbau</Name>
+      <Adress>
+        <Name>Fakultät für Maschinenbau</Name>
+        <Street>Max-Planck-Ring 12, Zimmer 1240</Street>
+        <City>Ilmenau</City>
+        <State>Deutschland</State>
+        <Zip>98693</Zip>
+      </Adress>
+    </Fak>
+    <Kompetenzfelder>
+      <Elektrotechnik>
+        <Elektronik>1</Elektronik>
+        <Hochenergietechnik>1</Hochenergietechnik>
+      </Elektrotechnik>
+      <Informatik>
+        <Neuroinformatik>1</Neuroinformatik>
+        <Datenbanken>1</Datenbanken>
+      </Informatik>
+      <Wirtschaftswissenschaften>
+        <Betriebswirtschaftslehre>1</Betriebswirtschaftslehre>
+      </Wirtschaftswissenschaften>
+      <Naturwissenschaften>
+        <Mathematik>8</Mathematik>
+        <Physik>8</Physik>
+        <Chemie>1</Chemie>
+      </Naturwissenschaften>
+      <Maschinenbau>
+        <Konstruktion>10</Konstruktion>
+        <Technischemechanik>10</Technischemechanik>
+      </Maschinenbau>
+      <Interdisziplinen>
+        <Medizintechnik>1</Medizintechnik>
+        <Robotic>2</Robotic>
+        <Fahrzeugtechnik>4</Fahrzeugtechnik>
+        <Automatisierung>1</Automatisierung>
+        <Nanotechnologie>1</Nanotechnologie>
+        <Medienwissenschaften>1</Medienwissenschaften>
+      </Interdisziplinen>
+    </Kompetenzfelder>
+  </Prof>
+  <Prof>
+    <LastName>Fechner</LastName>
+    <FirstName>Frank</FirstName>
+    <Title>Univ.-Prof. Dr. iur. habil.</Title>
+    <Email>dekan-ww@tu-ilmenau.de</Email>
+    <Phone>+49 3677 69 4017</Phone>
+    <Fak>
+      <Name>Wirtschaftswissenschaften</Name>
+      <Adress>
+        <Name>Fakultät für Wirtschaftswissenschaften</Name>
+        <Street>Helmholtzplatz 3, Oeconomicum, Raum 501</Street>
+        <City>Ilmenau</City>
+        <State>Deutschland</State>
+        <Zip>98693</Zip>
+      </Adress>
+    </Fak>
+    <Kompetenzfelder>
+      <Elektrotechnik>
+        <Elektronik>1</Elektronik>
+        <Hochenergietechnik>1</Hochenergietechnik>
+      </Elektrotechnik>
+      <Informatik>
+        <Neuroinformatik>1</Neuroinformatik>
+        <Datenbanken>4</Datenbanken>
+      </Informatik>
+      <Wirtschaftswissenschaften>
+        <Betriebswirtschaftslehre>10</Betriebswirtschaftslehre>
+      </Wirtschaftswissenschaften>
+      <Naturwissenschaften>
+        <Mathematik>8</Mathematik>
+        <Physik>1</Physik>
+        <Chemie>1</Chemie>
+      </Naturwissenschaften>
+      <Maschinenbau>
+        <Konstruktion>1</Konstruktion>
+        <Technischemechanik>1</Technischemechanik>
+      </Maschinenbau>
+      <Interdisziplinen>
+        <Medizintechnik>1</Medizintechnik>
+        <Robotic>1</Robotic>
+        <Fahrzeugtechnik>1</Fahrzeugtechnik>
+        <Automatisierung>1</Automatisierung>
+        <Nanotechnologie>1</Nanotechnologie>
+        <Medienwissenschaften>8</Medienwissenschaften>
+      </Interdisziplinen>
+    </Kompetenzfelder>
+  </Prof>
+  <Prof>
+    <LastName>Harant</LastName>
+    <FirstName>Jochen</FirstName>
+    <Title>Univ.-Prof. Dr. rer. nat. habil.</Title>
+    <Email>dekan-mn@tu-ilmenau.de</Email>
+    <Phone>+49 3677 69 3631</Phone>
+    <Fak>
+      <Name>Mathematik und Naturwissenschaften</Name>
+      <Adress>
+        <Name>Fakultät für Mathematik und Naturwissenschaften</Name>
+        <Street>Weimarer Straße 25,(Curiebau, Büro C 320)</Street>
+        <City>Ilmenau</City>
+        <State>Deutschland</State>
+        <Zip>98693</Zip>
+      </Adress>
+    </Fak>
+    <Kompetenzfelder>
+      <Elektrotechnik>
+        <Elektronik>1</Elektronik>
+        <Hochenergietechnik>1</Hochenergietechnik>
+      </Elektrotechnik>
+      <Informatik>
+        <Neuroinformatik>1</Neuroinformatik>
+        <Datenbanken>1</Datenbanken>
+      </Informatik>
+      <Wirtschaftswissenschaften>
+        <Betriebswirtschaftslehre>1</Betriebswirtschaftslehre>
+      </Wirtschaftswissenschaften>
+      <Naturwissenschaften>
+        <Mathematik>10</Mathematik>
+        <Physik>10</Physik>
+        <Chemie>10</Chemie>
+      </Naturwissenschaften>
+      <Maschinenbau>
+        <Konstruktion>1</Konstruktion>
+        <Technischemechanik>1</Technischemechanik>
+      </Maschinenbau>
+      <Interdisziplinen>
+        <Medizintechnik>1</Medizintechnik>
+        <Robotic>1</Robotic>
+        <Fahrzeugtechnik>1</Fahrzeugtechnik>
+        <Automatisierung>1</Automatisierung>
+        <Nanotechnologie>1</Nanotechnologie>
+        <Medienwissenschaften>1</Medienwissenschaften>
+      </Interdisziplinen>
+    </Kompetenzfelder>
+  </Prof>
+</profList>
