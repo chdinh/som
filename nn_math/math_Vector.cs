@@ -14,7 +14,7 @@ namespace nn_math
     ///<remarks>
     /// Class name: Vector
     ///	Developed by: Christoph Dinh
-    /// Email: christoph.dinh@arcor.de
+    /// Email: christoph.dinh@live.de
     /// Constructors:
     /// 	( int[] ):	takes 2D integer array, convert them to double	
     /// 	( double[] ):	takes 2D double array
@@ -533,7 +533,7 @@ namespace nn_math
             Console.WriteLine(Vector.Crossproduct(myVector1, myVector2).ConvertToString());
             Console.WriteLine("Transponierter Vector1:");
             Console.WriteLine(myVector1.Transpose().ConvertToString());
-            Console.WriteLine("Länge Vector1:");
+            Console.WriteLine("LÃ¤nge Vector1:");
             Console.WriteLine(myVector1.AbsVector());
             Console.WriteLine("Einheits-Vector1:");
             Console.WriteLine(myVector1.UnitVector().ConvertToString());
